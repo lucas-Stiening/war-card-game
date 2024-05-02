@@ -31,7 +31,8 @@ function drawTwo(){
         }else{
           document.querySelector('h3').innerText = 'WAR!'
           document.querySelector('#dealTwo').style.display = 'none'
-          document.querySelector('#war').style.display = 'flex'
+          document.querySelector('#war').style.display = 'block'
+          
           }
       })
       .catch(err => {
